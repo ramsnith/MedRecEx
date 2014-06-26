@@ -32,7 +32,7 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem 'bootstrap_form'
 
 gem 'simple_form'
-
+gem 'figaro'
 gem 'compass-rails'
 gem 'zurb-foundation'
 
