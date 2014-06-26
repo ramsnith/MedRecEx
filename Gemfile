@@ -36,6 +36,7 @@ gem 'simple_form'
 gem 'compass-rails'
 gem 'zurb-foundation'
 
+gem "activerecord-tableless"
 gem 'high_voltage'
 
 group :development do
