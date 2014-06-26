@@ -36,6 +36,8 @@ gem 'simple_form'
 gem 'compass-rails'
 gem 'zurb-foundation'
 
+gem 'high_voltage'
+
 group :development do
   gem 'better_errors' 
   gem 'quiet_assets' 
