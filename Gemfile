@@ -28,9 +28,19 @@ gem 'spring',        group: :development
 
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem "twitter-bootstrap-rails"
 
 gem 'bootstrap_form'
+
+gem 'simple_form'
+
+gem 'compass-rails'
+gem 'zurb-foundation'
+
+group :development do
+  gem 'better_errors' 
+  gem 'quiet_assets' 
+  gem 'rails_layout'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
